@@ -40,14 +40,6 @@ window.addEventListener("scroll", () => {
     popup.style.opacity = "0";
   }
 });
-
-window.addEventListener("click", () => {
-  //   popFerm.style.display = "none";
+popFerm.addEventListener("click", () => {
+  popFerm.style.display = "none";
 });
-// window.addEventListener('scroll', function() {
-//     var scrollPosition = window.scrollY;
-//     var pageHeight = document.documentElement.scrollHeight - window.innerHeight;
-//     if (scrollPosition === pageHeight) {
-//       // Afficher la popup
-//     }
-//   });
